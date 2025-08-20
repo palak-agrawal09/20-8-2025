@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <h1>WELCOME HERE</h1>
+        <h1>WELCOME</h1>
         <Routes>
           <Route path="/" element={<BusinessCategory />}></Route>
           <Route path="/buisness-listing" element={<Businesslisting />}></Route>
